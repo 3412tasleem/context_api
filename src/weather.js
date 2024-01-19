@@ -43,7 +43,13 @@ const Weather = () => {
     setHistory(weather);
     console.log(value);
   }
+  function onclicl(a) {
+    let sum = 0;
+    console.log(sum);
 
+    return (sum = a + 1);
+  }
+  console.log(onclicl(1));
   return (
     <div>
       <div>
@@ -66,6 +72,7 @@ const Weather = () => {
       </div>
       <div>
         <input onChange={onchangehandle} />
+        {/* <button onClick={onclicl}>Search</button> */}
 
         <button onClick={onhandel}>Search</button>
       </div>

@@ -13,7 +13,9 @@ const Mosam = () => {
     });
     console.log(searchdata);
   };
-  const searchHandle = () => {};
+  const searchHandle = () => {
+    console.log("");
+  };
   return (
     <div>
       <h1>hello</h1>
